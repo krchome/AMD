@@ -4,6 +4,19 @@
   "description": "",
   "main": "main.js",
   "type": "module",
+  "dependabot": {
+    "version": 2,
+    "updates": [
+      {
+        "package-ecosystem": "npm",
+        "directory": "/",
+        "schedule": {
+          "interval": "daily"
+        },
+        "open-pull-requests-limit": 5
+      }
+    ]
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
