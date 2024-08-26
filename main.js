@@ -6,7 +6,7 @@
       const posts = await getUserPosts(username);
       console.log(`Posts for ${username}:`, posts);
     } catch (error) {
-      console.error('Error fetching posts:', error);
+      console.error('Error in fetching posts:', error);
     }
   }
   
